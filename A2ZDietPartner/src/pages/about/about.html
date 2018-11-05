@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar color="colorname">
+    <ion-title>
+      My Diet Plan
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="details">
+  <h1>Do you have any allergic reactions?</h1><br><br>
+  <input type="checkbox" class="checkboxdata" value="gluten-free"><label class="fonts">gluten-free</label><span></span>
+  <input type="checkbox" class="checkboxdata" value="dairy-free"><label class="fonts">dairy-free</label>
+  <input type="checkbox" class="checkboxdata" value="eggs-free"><label class="fonts">eggs-free</label>
+  <input type="checkbox" class="checkboxdata" value="None"><label class="fonts">None</label><br><br>
+  </div>
+  <input type="submit" (click)="displayDiet()" value="Display my Diet">
+  <div class="dietdata">
+  <div id="bf">
+
+  </div>
+  <div id="lunch">
+
+  </div>
+  <div id="dinner">
+
+  </div>
+</div>
+</ion-content>

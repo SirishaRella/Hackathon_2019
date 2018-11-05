@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color="colorname">
+    <img src="../../assets/imgs/logo.png" style="width:10rem"><ion-title color="colorname">Choose your diet, Choose your drug
+     </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bgImage">
+  <div class="container">
+    <form>
+      <label class="fonts">Name</label>
+      <input type="text" [(ngModel)]="name" name="name">
+      <label class="fonts">Password</label>
+
+      <input type="password" [(ngModel)]="password" name="password">
+      <div id="address">
+      <label class="fonts">Address</label>
+      <input type="text" [(ngModel)]="address" name="address" class="address">
+      </div>
+      <div id="phno">
+      <label class="fonts">Phone-no:</label>
+      <input type="text" [(ngModel)]="phno" name="phno" class="phno">
+      </div>
+      <input type="submit" value="Register" (click)="pushData()"><br>
+      <input type="submit" value="Login" (click)="loginUser()">
+    </form>
+  </div>
+</ion-content>

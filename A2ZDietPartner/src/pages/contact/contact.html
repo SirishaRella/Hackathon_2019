@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar color="colorname">
+    <ion-title>
+     Recommendations
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <form class="container">
+      <h1 class="fonts">Suffering with:</h1><br><br>
+      <select id="diseases">
+        <option value="Diabetes">Diabetes</option>
+        <option value="Heart Health">Heart Health</option>
+        <option value="Obesity">Obesity</option>
+        <option value="HIV">HIV</option>
+      </select><br><br>
+      <input type="submit" value="Give Recommendations" (click)="recommendData()"><br>
+    </form>
+  </div>
+  <div id="demo"></div>
+  <br>
+
+  <div class="block1">
+    <h1 class="fonts">Have you encountered any side effects?</h1><br><br>
+    <input type="checkbox" class="checkboxdata1"  value="Cough"><label class="fonts">Cough</label><br>
+    <input type="checkbox" class="checkboxdata1" value="Aching joints"><label class="fonts">Aching joints</label><br>
+    <input type="checkbox" class="checkboxdata1" value="High blood pressure"><label class="fonts">High blood pressure</label><br>
+    <input type="submit" value="Display Medications" (click)="display()"><br>
+  </div>
+<br>
+  <div id="med">
+
+  </div>
+  <input type="submit" value="Sign Out" (click)="signOut()"><br>
+</ion-content>

@@ -1,0 +1,52 @@
+page-about {
+  ion-content{
+    background-image: url(../../assets/imgs/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dietdata{
+    display:table;
+    margin:0 auto;
+  }
+  input[type=text],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    background-color: darkseagreen;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:0 auto;
+    font-weight: bold;
+    display: block;
+    margin-top: 1rem;
+  }
+
+  input[type=submit]:hover {
+    background-color: darkseagreen;
+  }
+  img{
+    width:20rem;
+    height:20rem;
+  }
+  h1{
+    font-family: fantasy;
+  }
+  .details{
+    margin:0 auto;
+    display:table;
+  }
+  .fonts{
+    font-weight: bold;
+    font-size:2rem;
+    margin-right:1rem;
+  }
+}
